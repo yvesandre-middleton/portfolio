@@ -1,0 +1,102 @@
+@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');
+
+@font-face {
+  font-family: "AwConqueror";
+  src: local("AWConqueror Fre Sans"),
+       url(AWConquerorFreSans-Light.otf);
+}
+
+/*Link Colouring */
+
+/* unvisited link */
+a:link {
+    color: #6b88af;
+}
+
+/* visited link */
+a:visited {
+    color: #8ca2ff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #575a66;
+}
+
+/* selected link */
+a:active {
+    color: #8ca2ff;
+}
+
+/*Structure*/
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav.navbar {
+  text-align: center;
+  text-decoration: none;
+}
+
+.links {
+  text-decoration: none;
+}
+
+body {
+  margin: 10px;
+  font-family: ""AWConqueror"";
+}
+
+.top_text{
+  margin-bottom:40px;
+}
+
+.top_text p{
+  font-size: 16px;
+  line-height:1.6;
+}
+
+#left p,
+#right p {
+  font-family: "AWConqueror";
+  background: #f9f9f9;
+  border: 1px solid;
+  border-color: #f2f2f2;
+  border-radius: 2.5px;
+  padding: 60px 50px;
+  margin: 30px 0;
+}
+
+.bottom_text {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.header{
+	background: #eb02a8;
+	color: #fff;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+.header.header2{
+	background: #0212eb;
+}
+
+.posts{
+  text-align: center;
+}
+.post1_image{
+  width: 100%;
+}
+
+.post2_image{
+  width: 100%;
+}
+
+iframe{
+  width: 100%;
+}
